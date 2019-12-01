@@ -7,5 +7,7 @@ int main(int argc, char **argv)
     myBox.setWidth(w);
     printWidth(myBox);
 
+    BoxFriend bf;
+    bf.showLengthBox(myBox);
     return 0;
 }
