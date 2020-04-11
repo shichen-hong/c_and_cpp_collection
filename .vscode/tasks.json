@@ -6,6 +6,9 @@
       "type": "shell",
       "command": "gcc",
       "args": [
+        "-Wall", 
+        "-Wextra", 
+        // "-Werror",
         "-g",
         "${file}",
         "-o",
@@ -22,6 +25,9 @@
       "type": "shell",
       "command": "g++",
       "args": [
+        "-Wall", 
+        "-Wextra", 
+        // "-Werror",
         "-g",
         "${file}",
         "-o",
