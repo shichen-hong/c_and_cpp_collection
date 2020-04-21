@@ -6,6 +6,9 @@
       "type": "shell",
       "command": "C:\\TDM-GCC-64\\bin\\gcc.exe",
       "args": [
+        "-Wall", 
+        "-Wextra", 
+        // "-Werror",
         "-g",
         "${file}",
         "-o",
@@ -22,6 +25,9 @@
       "type": "shell",
       "command": "C:\\TDM-GCC-64\\bin\\g++",
       "args": [
+        "-Wall", 
+        "-Wextra", 
+        // "-Werror",
         "-g",
         "${file}",
         "-o",
