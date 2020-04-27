@@ -5,10 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "debug current c++ file",
+      "name": "debug current with g++",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "program": "${fileDirname}\\build_rd\\${fileBasenameNoExtension}.exe",
       "args": ["arg1", "arg2"],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
@@ -26,10 +26,10 @@
       "preLaunchTask": "build with g++"
     },
     {
-      "name": "debug current c file",
+      "name": "debug current with gcc",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "program": "${fileDirname}\\build_rd\\${fileBasenameNoExtension}.exe",
       "args": ["arg1", "arg2"],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

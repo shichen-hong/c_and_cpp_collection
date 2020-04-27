@@ -3,3 +3,4 @@
 **/*.s
 **/*.gch
 build/**/*
+build_rd/**/*
