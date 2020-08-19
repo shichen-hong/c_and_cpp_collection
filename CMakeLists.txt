@@ -21,4 +21,5 @@ set(Sources
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
+add_executable(${This}_exe ${Sources})
 add_subdirectory(test)
